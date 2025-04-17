@@ -54,8 +54,12 @@ const Card = (props: CardProps) => {
     );
   } else if (props.icon === "Twitter") {
     contentPreview = (
-      <div className="mt-5 ml-16">
-        <TwitterIcon />
+      <div className="flex justify-center pt-6 items-center">
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
+            <div className="w-[90%] rounded-lg ml-3">
+              <TwitterIcon />
+            </div>
+          </a>
       </div>
     );
   } else if(props.icon === "Notion"){
