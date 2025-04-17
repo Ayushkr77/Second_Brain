@@ -51,13 +51,14 @@ The **UI** of Second Brain is built with flexibility in mind, allowing users to 
 Here’s a quick peek at how the app looks:
 
 ### 🧳 **SignUp and Signin Page**
-![img alt]([./screenshots/home.png](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot1.png))
+![SignUp and Signin Page](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot1.png?raw=true)
 
 ### 🧠 **Home Interface**
-![img alt]([./screenshots/note-editing.png](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot2.png))
+![Home Interface](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot2.png?raw=true)
 
 ### 🧳 **Add New Card – Modal Interface**
-![img alt]([./screenshots/mobile-view.png](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot3.png))
+![Add New Card – Modal Interface](https://github.com/SUMITSUNWAL/Second-Brain/blob/c857eec0ffd6ba1cca90600175cb1a2921983815/Screenshot3.png?raw=true)
+
 
 ---
 
