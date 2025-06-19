@@ -6,6 +6,7 @@ import { useContext, JSX, useEffect, useRef, useState } from "react";
 import Modal from "../components/ModalUi/Modal";
 import Card from "../components/CardUi/Card";
 import { useNavigate } from "react-router-dom";
+import Topbar from "../components/Topbar";
 
 const HomePage = ()=>{
   const navigate = useNavigate();
@@ -33,7 +34,7 @@ const HomePage = ()=>{
         return;
       }
 
-      const res = await fetch("http://localhost:5000/api/v1/content", {
+      const res = await fetch("http://localhost:3000/api/v1/content", {
         method: "GET",
         headers: {
           "token": token
@@ -92,7 +93,7 @@ const HomePage = ()=>{
         return;
       }
 
-      const res = await fetch(`http://localhost:5000/api/v1/content`, {
+      const res = await fetch(`http://localhost:3000/api/v1/content`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -127,6 +128,7 @@ const HomePage = ()=>{
   return <div className="flex">
    <SideNavbar setData={setData} setYTData={setYTData} setNitionData={setNitionData} data1={data1} setDataShow={setDataShow}/>
    <div className="bg-slate-200 w-full pb-10">
+    <Topbar /> 
     <div className="flex justify-between">
       <div className="font-bold text-3xl mt-4 ml-8">All Notes</div>
         <div className="flex gap-2 mt-5 mr-8">

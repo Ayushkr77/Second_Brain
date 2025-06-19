@@ -92,11 +92,14 @@ export const login = async(req: Request,res: Response)=>{
     //   path: '/'  
     // }); 
 
+    // Send username and email back to frontend
     res.status(200).json({
-      message: "user logged in successfully",
+      message: "User logged in successfully",
       token,
-      userID: User._id 
-    })
+      userID: User._id,
+      username: User.username,
+      email: User.email
+    });
     return;
   }catch(err){
     console.log("something wrong",err);
