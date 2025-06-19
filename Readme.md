@@ -46,6 +46,44 @@ Each content item is displayed in a **card format** including:
 
 ---
 
+## 🔮 Future Plans
+
+Here are some exciting features planned for future versions of **Second Brain**:
+
+### 🌗 Dark Mode
+- Add a toggle to switch between light and dark themes for better user comfort.
+
+### 🔎 Advanced Search
+- Full-text search within titles, tags, and descriptions for quicker access to content.
+
+### ☁️ Cloud Sync / Backup
+- Allow cloud storage integration to sync your notes across devices and enable real-time backups.
+
+### 🔔 Reminders & Notifications
+- Let users set reminders and receive notifications for specific notes or tasks.
+
+### 🧠 AI-Powered Features
+- **Smart Tagging**: Automatically suggest tags based on note content using NLP.
+- **Summarization**: Summarize long articles, documents, or videos added to cards.
+- **Recommendations**: Recommend related content or notes based on user activity.
+- **Voice to Text**: Allow voice input to add quick notes using AI transcription.
+
+### 🗃️ Custom Categories
+- Let users create and manage custom categories to suit their workflow.
+
+### 📤 Import/Export
+- Add support for exporting notes to PDF/Markdown and importing from tools like Notion, Evernote, etc.
+
+### 📈 Dashboard Insights
+- Provide user insights such as:
+  - Number of notes created per week/month
+  - Most used tags
+  - Category-based analytics
+
+---
+
+
+
 
 
 ## 🚀 How to Use
